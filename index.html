@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Romántica</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="imagenes/Imagen de WhatsApp 2024-12-23 a las 22.15.13_59b9c448.jpg" />
+</head>
+<body>
+  <h1>Feliz Navidad, Fany!</h1>
+  <p>Te Dedico Esta canción especial de Navidad.</p>
+
+   <!-- Mensaje de amor -->
+   <div class="message" id="message"></div>
+
+ <!-- Audio -->
+ <audio id="myAudio" loop>
+  <source src="music/Mi deseo eres tu.mp3" type="audio/mp3">
+  Tu navegador no soporta el formato de audio.
+</audio>
+
+<!-- Botón para reproducir -->
+<button onclick="playAudio()">Reproducir Canción</button>
+
+<div class="audio-container">
+  <p>La música está sonando...</p>
+  <!-- Control del audio -->
+  <audio controls>
+    <source src="music/Mi deseo eres tu.mp3" type="audio/mp3">
+    Tu navegador no soporta el formato de audio.
+  </audio>
+</div>
+<!-- Pie de página con derechos de autor -->
+<footer>
+  <p>&copy; 2024 Jorge Ramos. Todos los derechos reservados.</p>
+</footer>
+<script src="script.js"></script> <!-- Enlazando el JavaScript -->
+</body>
+</html>

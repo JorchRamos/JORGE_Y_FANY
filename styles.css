@@ -1,0 +1,78 @@
+/* Estilos de la página */
+body {
+    background-color: #f8d7da; /* Fondo rosa suave */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    color: #333;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  h1 {
+    font-size: 3em;
+    color: #ff3366;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  /* Estilos del mensaje de amor */
+  .message {
+    font-size: 2em;
+    font-weight: bold;
+    color: #d6336c;
+    margin-top: 30px;
+  }
+  
+  /* Animación de corazones cayendo */
+  @keyframes hearts {
+    0% {
+      transform: translateY(-100px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh);
+      opacity: 0;
+    }
+  }
+  
+  .heart {
+    position: absolute;
+    color: red;
+    font-size: 30px;
+    animation: hearts 5s linear infinite;
+    opacity: 0.8;
+  }
+  
+  /* Estilo del audio */
+  .audio-container {
+    margin-top: 20px;
+    display: none; /* Ocultar el control del audio */
+  }
+  
+  /* Responsividad */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2.5em;
+    }
+  
+    p {
+      font-size: 1.2em;
+    }
+  }
+/* Estilos para el pie de página */
+footer {
+    margin-top: 50px;
+    font-size: 1em;
+    color: #333;
+    background-color: #f8d7da; /* Fondo rosa suave */
+    padding: 10px;
+  }
+  
+  footer p {
+    margin: 0;
+  }  
